@@ -10,20 +10,20 @@ header-includes:
 	- \usepackage{enumerate}
 ---
 
-#9
+# 9
 \begin{enumerate}[a]
 	\item %a
 	\item %b
 \end{enumerate}
 
-#10
+# 10
 \begin{enumerate}[a]
 	\item %a
 	\item %b
 	\item %c
 \end{enumerate}
 
-#11
+# 11
 \begin{enumerate}[a]
 	\item %a
 	\item %b
@@ -31,17 +31,17 @@ header-includes:
 	\item %d
 \end{enumerate}
 
-#12
+# 12
 \begin{enumerate}[a]
 	\item %a
 	\item %b
 \end{enumerate}
 
-#13
+# 13
 \begin{enumerate}[a]
 	\item %a
 	\item %b
 	\item %c
 \end{enumerate}
 
-#14
+# 14
