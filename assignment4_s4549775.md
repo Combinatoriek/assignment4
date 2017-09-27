@@ -6,42 +6,30 @@ author: Hendrik Werner s4549775
 date: \today
 fontsize: 12pt
 geometry: margin=5em
-header-includes:
-	- \usepackage{enumerate}
 ---
 
 # 9
-\begin{enumerate}[a]
-	\item %a
-	\item %b
-\end{enumerate}
+## a
+## b
 
 # 10
-\begin{enumerate}[a]
-	\item %a
-	\item %b
-	\item %c
-\end{enumerate}
+## a
+## b
+## c
 
 # 11
-\begin{enumerate}[a]
-	\item %a
-	\item %b
-	\item %c
-	\item %d
-\end{enumerate}
+## a
+## b
+## c
+## d
 
 # 12
-\begin{enumerate}[a]
-	\item %a
-	\item %b
-\end{enumerate}
+## a
+## b
 
 # 13
-\begin{enumerate}[a]
-	\item %a
-	\item %b
-	\item %c
-\end{enumerate}
+## a
+## b
+## c
 
 # 14
