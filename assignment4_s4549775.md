@@ -74,6 +74,8 @@ $n$|$a_n$
 We can lay out a walkway with 7 tiles in $a_7 = 1224$ ways.
 
 # 11
+$a_n$ is the number of moves needed to solve the Tower of Hanoi puzzle with $n$ disks.
+
 ## a
 m is the medium disk, and s the small disk.
 
