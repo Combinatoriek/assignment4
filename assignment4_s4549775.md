@@ -156,6 +156,13 @@ $a_n + 4 a_{n - 2} = -4 a_{n - 1}, a_0 = 0, a_1 = 1$
 
 	$r^2 + 4r + 4 = (r + 2)(r + 2) = 0$, so $r_1 = r_2 = -2$
 
+4. The general solution is
+
+	$\begin{aligned}
+		a_n &= \alpha_1 r_1^n + n \alpha_2 r_2^n\\
+		&= \alpha_1 (-2)^n + n \alpha_2 (-2)^n
+	\end{aligned}$
+
 ## c
 
 $a_n = \dfrac{a_{n - 2}}{4}$ for $n \geq 2, a_0 = 1, a_1 = 0$
