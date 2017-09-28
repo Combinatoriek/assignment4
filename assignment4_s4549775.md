@@ -113,7 +113,7 @@ $a_n + 4 a_{n - 2} = -4 a_{n - 1}, a_0 = 0, a_1 = 1$
 
 2. The characteristic equation is
 
-	$r^2 - c_1 r^1 - c_2 = 0$
+	$r^2 - c_1 r^1 - c_2 = r^2 + 4r + 4 = 0$
 
 ## c
 
