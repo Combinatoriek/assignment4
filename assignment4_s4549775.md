@@ -80,6 +80,8 @@ We can lay out a walkway with 7 tiles in $a_7 = 1224$ ways.
 ## d
 
 # 12
+If I understand the problem correctly, then everyone beginning from person 1 kills his left neighbor until only one person is left. So person one begins by killing person 2, person 3 kills person 4, and so on.
+
 ## a
 ## b
 
