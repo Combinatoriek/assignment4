@@ -101,7 +101,12 @@ move|peg 1|peg 2|peg 3
 7||s|m
 8|||ms
 
-$a_2 = 8$
+$\begin{aligned}
+	a_2 &= 8\\
+	&= 3 a_1 + 2
+\end{aligned}$
+
+$a_n = 3 a_{n - 1} + 2$
 
 ## b
 ## c
