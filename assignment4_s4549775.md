@@ -47,7 +47,7 @@ When placing the $n$th tile, it could be a red, green, or gray one. If it is a g
 If the $n$th slate is red, the previous slate must be green or gray. This means that there are $2 * a_{n - 2}$ possibilities.
 
 We can derive the following recurrence relation:
-$a_n = 2 a_{n - 1} + 2 a_{n - 2}$ for $n \geq 3$
+$a_n = 2 a_{n - 1} + 2 a_{n - 2}$ for $n \geq 2$
 
 ## b
 ## c
