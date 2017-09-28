@@ -132,6 +132,8 @@ $\begin{aligned}
 \end{aligned}$
 
 ## c
+We can place the disks from largest to smallest, so we are always able to place every disk on every peg without violating the rules. For every disk we place, we can therefore put it on one of the three pegs. This means there are $3^n$ allowed configurations.
+
 ## d
 
 # 12
