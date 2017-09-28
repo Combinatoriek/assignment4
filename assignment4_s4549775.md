@@ -163,6 +163,21 @@ $a_n + 4 a_{n - 2} = -4 a_{n - 1}, a_0 = 0, a_1 = 1$
 		&= \alpha_1 (-2)^n + n \alpha_2 (-2)^n
 	\end{aligned}$
 
+5. Now we fill in the initial conditions to determine $\alpha_1, \alpha_2$
+
+	$\begin{aligned}
+		0 &= \alpha_1 (-2)^0 + 0 \alpha_2 (-2)^0\\
+		&= \alpha_1
+	\end{aligned}$
+
+	$\begin{aligned}
+		1 &= \alpha_1 (-2)^1 + 1 * \alpha_2 (-2)^1\\
+		&= -2 \alpha_1 -2 \alpha_2\\
+		&= -2 \alpha_2
+	\end{aligned}$
+
+	$\alpha_1 = 0, \alpha_2 = -\frac{1}{2}$
+
 ## c
 
 $a_n = \dfrac{a_{n - 2}}{4}$ for $n \geq 2, a_0 = 1, a_1 = 0$
