@@ -285,3 +285,20 @@ $a_n = \dfrac{a_{n - 2}}{4}$ for $n \geq 2, a_0 = 1, a_1 = 0$
 	$\alpha_1 = \frac{1}{2}, \alpha_2 = -\frac{1}{2}$
 
 # 14
+$a_n$ is the number of existing *lucky numbers* of length $n$.
+
+There is only one number with no digits, and it does not contain the pattern `13`.
+
+$a_0 = 1$
+
+Lucky numbers must not contain the pattern `13`, so every one digit number is valid.
+
+$a_1 = 9$
+
+If we place the $n$th digit, of an $n$ digit lucky number, we need do differentiate between numbers that have a 1 at the $n - 1$th position, and those that do not.
+
+If there is no 1, then we can place any digit we like, so there are $10 a_{n - 1}$ of these numbers.
+
+If there is a 1, then we must not place a 3 next, so there are $9 a_{n - 2}$ of these numbers.
+
+$a_n = 10 a_{n - 1} + 9 a_{n - 2}$
