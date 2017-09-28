@@ -21,6 +21,22 @@ We can derive the following recurrence relation:
 * $a_n = a_{n - 5} + a_{n - 10}$ for $n \geq 10$
 
 ## b
+Since the recurrence relation is recursive, we need to calculate all values up to 45 cents.
+
+$n$|possibilities
+---|-------------
+0|1
+5|1
+10|2
+15|3
+20|5
+25|8
+30|13
+35|21
+40|34
+45|55
+
+A toll of 45 cents can be paid in $a_{45} = 55$ ways with nickels and dimes.
 
 # 10
 ## a
