@@ -121,6 +121,16 @@ $n$|$a_n$
 
 We can see a pattern here: $a_n = 3^n - 1$
 
+We want to prove our suspicion. Therefore we take the induction hypothesis $a_n = 3^n - 1$.
+
+Now we need to prove that $a_{n + 1} = 3^{n + 1} - 1$.
+
+$\begin{aligned}
+	a_{n + 1} &= 3 a_n + 2\\
+	&\stackrel{IH}{=} 3 (3^n - 1) + 2\\
+	&= 3^{n + 1} - 3 + 2 &= 3^{n + 1} - 1
+\end{aligned}$
+
 ## c
 ## d
 
