@@ -84,6 +84,22 @@ If I understand the problem correctly, then everyone beginning from person 1 kil
 
 ## a
 ## b
+If we write $n$ as $2^m + k$ like this
+
+$n$|$m$|$k$|$J(n)$
+---|---|---|------
+1|0|0|1
+2|1|0|1
+3|1|1|3
+4|2|0|1
+5|2|1|3
+6|2|2|5
+7|2|3|7
+8|3|0|1
+
+we see that $J(n) = 2k + 1$.
+
+This makes sense because after $k$ people have been killed it is the turn of person $2k + 1$, and there are $2^m$ people left, so after every round, half of the people have been eliminated ($2^{m - 1}, \dots, 2^0$), and it is the turn of person $2k + 1$ again. This pattern repeats until everybody else is dead.
 
 # 13
 ## a
