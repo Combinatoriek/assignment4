@@ -206,4 +206,18 @@ $a_n = \dfrac{a_{n - 2}}{4}$ for $n \geq 2, a_0 = 1, a_1 = 0$
 		&= \alpha_1 (\frac{1}{2})^n + \alpha_2 (-\frac{1}{2})^n\\
 	\end{aligned}$
 
+5. By filling in the initial conditions we can solve for $\alpha_1, \alpha_2$.
+
+	$\begin{aligned}
+		1 &= \alpha_1 (\frac{1}{2})^0 + \alpha_2 (-\frac{1}{2})^0\\
+		&= \alpha_2 + \alpha_2
+	\end{aligned}$
+
+	$\begin{aligned}
+		0 &= \alpha_1 (\frac{1}{2})^1 + \alpha_2 (-\frac{1}{2})^1\\
+		&= \alpha_1 - \alpha_2
+	\end{aligned}$
+
+	$\alpha_1 = \frac{1}{2}, \alpha_2 = -\frac{1}{2}$
+
 # 14
