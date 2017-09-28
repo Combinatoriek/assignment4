@@ -121,4 +121,23 @@ $a_n + 4 a_{n - 2} = -4 a_{n - 1}, a_0 = 0, a_1 = 1$
 
 ## c
 
+$a_n = \dfrac{a_{n - 2}}{4}$ for $n \geq 2, a_0 = 1, a_1 = 0$
+
+1. The normal form is
+
+	$a_n = 0 a_{n - 1} + \frac{1}{4} a_{n - 2}$
+
+2. The characteristic equation is
+
+	$r^2 - c_1 r^1 - c_2 = r^2 - 0 r - \frac{1}{4} = r^2 - \frac{1}{4} = 0$
+
+3. We need to find the roots by solving the characteristic equation
+
+	$\begin{aligned}
+		r^2 - \frac{1}{4} &= 0\\
+		r^2 &= \frac{1}{4}
+	\end{aligned}$
+
+	$r_1 = \frac{1}{2}, r_2 = -\frac{1}{2}$
+
 # 14
