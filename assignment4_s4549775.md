@@ -105,6 +105,16 @@ $a_n = a_{n - 1}$ for $n \geq 1, a_0 = 2$
 	$\alpha_1 = 2$
 
 ## b
+$a_n + 4 a_{n - 2} = -4 a_{n - 1}, a_0 = 0, a_1 = 1$
+
+1. The normal form is
+
+	$a_n = -4 a_{n - 1} -4 a_{n - 2}$
+
+2. The characteristic equation is
+
+	$r^2 - c_1 r^1 - c_2$
+
 ## c
 
 # 14
