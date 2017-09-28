@@ -109,6 +109,18 @@ $\begin{aligned}
 $a_n = 3 a_{n - 1} + 2$
 
 ## b
+I do not think we can use the algorithm from the slides, because this recurrence relation is not homogeneous because of the term $2$, which is not a multiple of $a_n$. Therefore I will try to derive it "by hand".
+
+$n$|$a_n$
+---|-----
+1|2
+2|8
+3|26
+4|80
+5|242
+
+We can see a pattern here: $a_n = 3^n - 1$
+
 ## c
 ## d
 
