@@ -75,6 +75,34 @@ We can lay out a walkway with 7 tiles in $a_7 = 1224$ ways.
 
 # 11
 ## a
+b is the big disk, m the medium disk, and s the small disk.
+
+$n = 1$
+
+move|peg 1|peg 2|peg 3
+----|-----|-----|-----
+0|s
+1||s
+2|||s
+
+$a_1 = 2$
+
+$n = 2$
+
+move|peg 1|peg 2|peg 3
+----|-----|-----|-----
+0|ms
+1|m|s
+2|m||s
+3||m|s
+4||ms
+5|s|m
+6|s||m
+7||s|m
+8|||ms
+
+$a_2 = 8$
+
 ## b
 ## c
 ## d
