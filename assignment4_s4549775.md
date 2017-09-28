@@ -199,4 +199,11 @@ $a_n = \dfrac{a_{n - 2}}{4}$ for $n \geq 2, a_0 = 1, a_1 = 0$
 
 	$r_1 = \frac{1}{2}, r_2 = -\frac{1}{2}$
 
+4. The general solution is
+
+	$\begin{aligned}
+		a_n &= \alpha_1 r_1^n + \alpha_2 r_2^n\\
+		&= \alpha_1 (\frac{1}{2})^n + \alpha_2 (-\frac{1}{2})^n\\
+	\end{aligned}$
+
 # 14
