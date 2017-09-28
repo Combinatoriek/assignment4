@@ -115,6 +115,10 @@ $a_n + 4 a_{n - 2} = -4 a_{n - 1}, a_0 = 0, a_1 = 1$
 
 	$r^2 - c_1 r^1 - c_2 = r^2 + 4r + 4 = 0$
 
+3. We need to find the roots $r_1, r_2$ by solving the characteristic equation.
+
+	$r^2 + 4r + 4 = (r + 2)(r + 2) = 0$, so $r_1 = r_2 = -2$
+
 ## c
 
 # 14
