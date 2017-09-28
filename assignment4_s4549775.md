@@ -135,6 +135,11 @@ $\begin{aligned}
 We can place the disks from largest to smallest, so we are always able to place every disk on every peg without violating the rules. For every disk we place, we can therefore put it on one of the three pegs. This means there are $3^n$ allowed configurations.
 
 ## d
+We have shown that we need at least $3^n - 1$ moves to solve the restricted Tower of Hanoi puzzle.
+
+After each move we must have a unique configuration of disks, that we did not have before. We can show this by contradiction. You can think of the configurations as nodes, and the moves as edges in a graph. Assume that there is not a new configuration after every move. This would mean there are cycles in the graph, so you could reach the end configuration without visiting all nodes, by avoiding these cycles. We already showed that you need at least $3^n - 1$ moves to solve the puzzle, so our assumption must be wrong, and there cannot by cycles in the graph.
+
+So if after each move we are in a new configuration, and we make $3^n - 1$ moves, than we visit $3^n$ different configurations. We have already shown that there are only $3^n$ allowed configurations, which means we visit all of them.
 
 # 12
 If I understand the problem correctly, then everyone beginning from person 1 kills his left neighbor until only one person is left. So person one begins by killing person 2, person 3 kills person 4, and so on.
