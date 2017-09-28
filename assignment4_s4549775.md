@@ -39,6 +39,8 @@ $n$|possibilities
 A toll of 45 cents can be paid in $a_{45} = 55$ ways with nickels and dimes.
 
 # 10
+There are red, green, and gray walkways slates. $a_n$ is the number of possibilities to lay out $n$ walkways slate tiles, without two red tiles touching.
+
 ## a
 ## b
 ## c
