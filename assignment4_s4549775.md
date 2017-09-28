@@ -10,7 +10,7 @@ geometry: margin=5em
 
 # 9
 ## a
-Nickels are worth 5 cents, and Dimes 10 cents. $a_n$ is the number of possibilities to pay a toll of $n$ cents.
+Nickels are worth 5 cents, and Dimes 10 cents. $a_n$ is the number of possibilities to pay a toll of $n$ cents with only nickels and dimes.
 
 When putting the last coin in, it is either a dime, or a nickel. If it was a dime we put in $n - 10$ cents before, so there are $a_{n - 10}$ ways to do this. If the last coin was a nickel, we put in $n - 5$ cents before, so there are $a_{n - 5}$ ways to do this.
 
