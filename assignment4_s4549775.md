@@ -42,6 +42,13 @@ A toll of 45 cents can be paid in $a_{45} = 55$ ways with nickels and dimes.
 There are red, green, and gray walkways slates. $a_n$ is the number of possibilities to lay out $n$ walkways slate tiles, without two red tiles touching.
 
 ## a
+When placing the $n$th tile, it could be a red, green, or gray one. If it is a green or gray slate, then the color of the previous tile does not matter. We can place the previous tiles in $a_{n - 1}$ ways.
+
+If the $n$th slate is red, the previous slate must be green or gray. This means that there are $2 * a_{n - 2}$ possibilities.
+
+We can derive the following recurrence relation:
+$a_n = 2 a_{n - 1} + 2 a_{n - 2}$ for $n \geq 3$
+
 ## b
 ## c
 
