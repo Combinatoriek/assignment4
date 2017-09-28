@@ -50,6 +50,13 @@ We can derive the following recurrence relation:
 $a_n = 2 a_{n - 1} + 2 a_{n - 2}$ for $n \geq 2$
 
 ## b
+Our recurrence relation from (a) is defined for $n \geq 2$, so we need to know $a_0$, and $a_1$:
+
+$n$|possibilities|$a_n$
+---|:-----------:|-----
+0|""|1
+1|"green", "gray", "red"|3
+
 ## c
 
 # 11
