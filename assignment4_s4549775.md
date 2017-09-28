@@ -58,6 +58,20 @@ $n$|possibilities|$a_n$
 1|"green", "gray", "red"|3
 
 ## c
+We need to start from the beginning again, and work our way up.
+
+$n$|$a_n$
+---|-----
+0|1
+1|3
+2|8
+3|22
+4|60
+5|164
+6|448
+7|1224
+
+We can lay out a walkway with 7 tiles in $a_7 = 1224$ ways.
 
 # 11
 ## a
