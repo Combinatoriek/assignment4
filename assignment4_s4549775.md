@@ -85,6 +85,25 @@ We can lay out a walkway with 7 tiles in $a_7 = 1224$ ways.
 
 # 13
 ## a
+$a_n = a_{n - 1}$ for $n \geq 1, a_0 = 2$
+
+1. This recurrence relation is already in the normal form.
+
+	$c_1 = 1$
+2. The characteristic equation is
+
+	$r^1 - c_1 = r - 1 = 0$
+3. We need to find the root $r$ by solving $r - 1 = 0$.
+
+	$r = 1$
+4. The general solution is
+
+	$a_n = \alpha_1 c_1^n$
+
+5. Now we fill in the initial conditions, to calculate $\alpha_1$.
+
+	$\alpha_1 = 2$
+
 ## b
 ## c
 
