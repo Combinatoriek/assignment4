@@ -84,7 +84,7 @@ If I understand the problem correctly, then everyone beginning from person 1 kil
 
 ## a
 $n$|$J(n)$|order of death
----|-----|---------------
+---|------|---------------
 1|1
 2|1|2
 3|3|2, 1
