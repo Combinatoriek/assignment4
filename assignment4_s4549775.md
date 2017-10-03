@@ -274,7 +274,7 @@ $a_n = \dfrac{a_{n - 2}}{4}$ for $n \geq 2, a_0 = 1, a_1 = 0$
 
 	$\begin{aligned}
 		1 &= \alpha_1 (\frac{1}{2})^0 + \alpha_2 (-\frac{1}{2})^0\\
-		&= \alpha_2 + \alpha_2
+		&= \alpha_1 + \alpha_2
 	\end{aligned}$
 
 	$\begin{aligned}
@@ -295,7 +295,7 @@ Lucky numbers must not contain the pattern `13`, so every one digit number is va
 
 $a_1 = 9$
 
-If we place the $n$th digit, of an $n$ digit lucky number, we need do differentiate between numbers that have a 1 at the $n - 1$th position, and those that do not.
+If we place the $n$th digit, of an $n$ digit lucky number, we need to differentiate between numbers that have a 1 at the $n - 1$th position, and those that do not.
 
 If there is no 1, then we can place any digit we like, so there are $10 a_{n - 1}$ of these numbers.
 
